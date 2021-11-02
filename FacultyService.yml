@@ -1,0 +1,11 @@
+welcome: Hello Faculty Service
+
+faculty-service-greeting: 'Welcome to Faculty Service'
+
+# General config for student service and faculty service
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    preferIpAddress: true
